@@ -6,6 +6,16 @@ Desafio para processo seletivo Ci&T Jan/2020
 
 Deve ser criado uma aplicação que permita o upload de imagens e que seja possível listar todos os arquivos enviados. O site deve consumir APIs REST para realizar todo o trabalho.
 
+# Observação
+
+Devido ao pouco tempo para execução do teste, optei por fazer algo simples e que atenda as especificações o máximo possível.
+
+Foi utilizado o H2 para persistir os dados.
+Na API de Imagens, as imagens que vão ser enviadas devem estar obrigatoriamente associadas a um usuário por meio de seu id.
+Foi criado outra API para CRUD de usuário.
+
+Ao fazer upload de um ou mais imagens as mesmas só serão salvas no banco se todas atenderem os requisitos. 
+
 # Executando a aplicação
 
 Para executar:
@@ -120,6 +130,3 @@ Metodo: GET
 - https://www.baeldung.com/swagger-2-documentation-for-spring-rest-api
 - https://pandao.github.io/editor.md/en.html
 - https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/web/multipart/MultipartFile.html
-
-# Evolução:
-Para uma eventual evolução do sistema é recomendo a modularização.
