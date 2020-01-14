@@ -1,0 +1,381 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Teste Upload Java",
+		"_postman_id": "f57c82f0-e3c4-b6ae-b57c-70c38f1abc27",
+		"description": "Para desafio Ci&T",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Crud Usuario",
+			"description": "",
+			"item": [
+				{
+					"name": "ADD USER ID 1",
+					"request": {
+						"url": "http://localhost:8080/usuario/create",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"email\": \"User1@gmail.com\",\r\n  \"name\": \"User1\"\r\n}"
+						},
+						"description": "Usuário 1\n"
+					},
+					"response": []
+				},
+				{
+					"name": "ADD USER ID 2",
+					"request": {
+						"url": "http://localhost:8080/usuario/create",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"email\": \"User2@gmail.com\",\r\n  \"name\": \"User2\"\r\n}"
+						},
+						"description": "Usuário 2\n"
+					},
+					"response": []
+				},
+				{
+					"name": "OBTER USUARIO ID 1",
+					"request": {
+						"url": "http://localhost:8080/usuario/1",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "OBTER TODOS USUARIOS",
+					"request": {
+						"url": "http://localhost:8080/usuario/",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "email",
+									"value": "teste",
+									"description": "",
+									"type": "text"
+								},
+								{
+									"key": "name ",
+									"value": "tetse",
+									"description": "",
+									"type": "text"
+								}
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "DELETE USUARIO ID 2 ",
+					"request": {
+						"url": "http://localhost:8080/usuario/2/delete",
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "ADD USER ID 3",
+					"request": {
+						"url": "http://localhost:8080/usuario/create",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"email\": \"User3@gmail.com\",\r\n  \"name\": \"User3\"\r\n}"
+						},
+						"description": "Usuário 3\n\n"
+					},
+					"response": []
+				},
+				{
+					"name": "UPDATE USER 3",
+					"request": {
+						"url": "http://localhost:8080/usuario/3/update",
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"email\": \"Aterando Email\",\r\n  \"name\": \"Aterando Nome\"\r\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "ADD USER ID 4",
+					"request": {
+						"url": "http://localhost:8080/usuario/create",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"email\": \"User4@gmail.com\",\r\n  \"name\": \"User4\"\r\n}"
+						},
+						"description": "Usuário 4\n"
+					},
+					"response": []
+				},
+				{
+					"name": "OBTER TODOS USUARIOS",
+					"request": {
+						"url": "http://localhost:8080/usuario/",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "email",
+									"value": "teste",
+									"description": "",
+									"type": "text"
+								},
+								{
+									"key": "name ",
+									"value": "tetse",
+									"description": "",
+									"type": "text"
+								}
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Enviar Imagem",
+			"description": "",
+			"item": [
+				{
+					"name": "Upload 2 imagens validas",
+					"request": {
+						"url": "http://localhost:8080/imagem/upload",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": "",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "imagens",
+									"description": "",
+									"type": "file",
+									"src": "barril-30.png"
+								},
+								{
+									"key": "usuarioId",
+									"value": "1",
+									"description": "",
+									"type": "text"
+								},
+								{
+									"key": "imagens",
+									"description": "",
+									"type": "file",
+									"src": "barril-50L.png"
+								}
+							]
+						},
+						"description": "Usuário 2\n"
+					},
+					"response": []
+				},
+				{
+					"name": "Upload 2 imagens validas SEM usuario",
+					"request": {
+						"url": "http://localhost:8080/imagem/upload",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": "",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "imagens",
+									"description": "",
+									"type": "file",
+									"src": "barril-30.png"
+								},
+								{
+									"key": "usuarioId",
+									"value": "1",
+									"description": "",
+									"type": "text"
+								},
+								{
+									"key": "imagens",
+									"description": "",
+									"type": "file",
+									"src": "barril-50L.png"
+								}
+							]
+						},
+						"description": "Usuário 2\n"
+					},
+					"response": []
+				},
+				{
+					"name": "Upload SEM Imagens",
+					"request": {
+						"url": "http://localhost:8080/imagem/upload",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": "",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "imagens",
+									"description": "",
+									"type": "file",
+									"src": "barril-30.png"
+								},
+								{
+									"key": "usuarioId",
+									"value": "1",
+									"description": "",
+									"type": "text"
+								},
+								{
+									"key": "imagens",
+									"description": "",
+									"type": "file",
+									"src": "barril-50L.png"
+								}
+							]
+						},
+						"description": "Usuário 2\n"
+					},
+					"response": []
+				},
+				{
+					"name": "Obter Imagem Por Nome",
+					"request": {
+						"url": "http://localhost:8080/imagem/barril-50L.png",
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Deletar Imagem Id 3",
+					"request": {
+						"url": "http://localhost:8080/imagem/3/delete",
+						"method": "DELETE",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Obter todas Imagens",
+					"request": {
+						"url": "http://localhost:8080/imagem",
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Obter imagens por Usuario Id 1",
+					"request": {
+						"url": "http://localhost:8080/imagem/usuario/1/historico",
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

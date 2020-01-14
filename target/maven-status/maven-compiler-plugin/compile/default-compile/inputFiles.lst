@@ -1,0 +1,16 @@
+D:\CIT\desafio-java-cit-master\src\main\java\com\testejava\testejavaws\dominio\repository\ImagemRepository.java
+D:\CIT\desafio-java-cit-master\src\main\java\com\testejava\testejavaws\dominio\Imagem.java
+D:\CIT\desafio-java-cit-master\src\main\java\com\testejava\testejavaws\service\impl\UsuarioServiceImpl.java
+D:\CIT\desafio-java-cit-master\src\main\java\com\testejava\testejavaws\dominio\Usuario.java
+D:\CIT\desafio-java-cit-master\src\main\java\com\testejava\testejavaws\dominio\TipoPermitidos.java
+D:\CIT\desafio-java-cit-master\src\main\java\com\testejava\testejavaws\exception\TipoInvalidoException.java
+D:\CIT\desafio-java-cit-master\src\main\java\com\testejava\testejavaws\dominio\repository\UsuarioRepository.java
+D:\CIT\desafio-java-cit-master\src\main\java\com\testejava\testejavaws\TesteJavaWsApplication.java
+D:\CIT\desafio-java-cit-master\src\main\java\com\testejava\testejavaws\exception\NumeroInvalidoException.java
+D:\CIT\desafio-java-cit-master\src\main\java\com\testejava\testejavaws\controller\DesafioImagemRestController.java
+D:\CIT\desafio-java-cit-master\src\main\java\com\testejava\testejavaws\controller\UsuarioRestController.java
+D:\CIT\desafio-java-cit-master\src\main\java\com\testejava\testejavaws\service\impl\DesafioUploadServiceImpl.java
+D:\CIT\desafio-java-cit-master\src\main\java\com\testejava\testejavaws\service\DesafioUploadService.java
+D:\CIT\desafio-java-cit-master\src\main\java\com\testejava\testejavaws\dominio\ImagemDTO.java
+D:\CIT\desafio-java-cit-master\src\main\java\com\testejava\testejavaws\exception\UsuarioInvalidoException.java
+D:\CIT\desafio-java-cit-master\src\main\java\com\testejava\testejavaws\service\UsuarioService.java
